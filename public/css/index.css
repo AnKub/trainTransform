@@ -119,24 +119,52 @@
 
 .task13:hover {
   cursor: nesw-resize;
-  transform: rotate(60deg, 30deg) translateX(20px, 20px)
-    skew(20deg, 20deg);
+  transform: rotate(61deg) translate(26px, 4px)
+    skew(23deg, 1deg);
 }
 
 .task14 {
+  transition: transform 1s;
 }
 
 .task14:hover {
+  cursor: nesw-resize;
+  transform: rotate(45deg) translateZ(60px)
+    rotate3d(2, 1, 0, 90deg);
 }
 
 .task15 {
+  transition: transform 1s;
 }
 
 .task15:hover {
+  cursor: nesw-resize;
+  transform: scale(0.4) rotateY(45deg) translateZ(60px)
+    rotate3d(2, 1, 0, 90deg) skew(80deg, 60deg);
 }
 
 .task16 {
+  transition: transform 1s;
 }
 
 .task16:hover {
+  cursor: cell;
+  transform: matrix3d(
+    0.5,
+    0,
+    -0.866025,
+    0,
+    0.595877,
+    1.2,
+    -1.03209,
+    0,
+    0.866025,
+    0,
+    0.5,
+    0,
+    25.9808,
+    0,
+    15,
+    1
+  );
 }
